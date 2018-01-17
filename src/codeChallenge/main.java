@@ -67,7 +67,7 @@ public class main {
 			//System.out.println("Integer in month"+i);
 			sum+=i;
 		}
-		//sum /= month.size(); //sum = sum/month.size()
+		sum /= month.size(); //sum = sum/month.size()
 		//System.out.println("Month size "+month.size());
 		return sum;
 	}
